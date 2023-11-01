@@ -13,6 +13,7 @@
     color: #A83FC6;
 }
 .mainBox{
+    /* margin-top: 100px; */
     display: flex;
     justify-content: center;
 }
