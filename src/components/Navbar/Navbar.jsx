@@ -11,14 +11,14 @@ export default function Navbar() {
     const [isClick, setIsClick] = useState(false);
   return (
     <div className='bg-transparent px-3 px-lg-5 pt-2'>
-        <nav className='d-none d-lg-block d-xl-flex justify-content-between'>
+        <nav className='d-none d-lg-block d-xxl-flex justify-content-between'>
             <div className='d-flex justify-content-md-center '>
             <img src={logo} alt='Logo'  width={150}/>
             </div>
             {/* justify-content-xl-end */}
-            <div className='d-flex  justify-content-center justify-content-xl-end  mt-2 mt-xl-0 col-xl-8' >
+            <div className='d-flex  justify-content-lg-evenly justify-content-xxl-end  mt-2 mt-xl-0 col-xxl-8' >
                 
-                <div className='d-md-flex w-auto align-items-center justify-content-md-around  justify-content-lg-end col-lg-3 col-xl-7 col'>
+                <div className='d-md-flex w-auto align-items-center justify-content-md-around  justify-content-xxl-end col-lg-3 col-xl-7 col'>
                     <a href='/' className='routeLink'>Audits</a>
                     <a href='/' className='routeLink'>Live</a>
                     <a href='/' className='routeLink'>WhitePaper</a>
