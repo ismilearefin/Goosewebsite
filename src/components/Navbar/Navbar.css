@@ -1,0 +1,42 @@
+.IconsNavbar{
+    color:#fff;
+    font-size: 50px;
+}
+.logo{
+    width: 0px;
+}
+.routeLink{
+    padding: 20px 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #321B38;
+}
+.iconBox{
+    max-width: 100%;
+    justify-content: center;
+    font-size: 50px;
+    gap:2px
+}
+.walletButoon{
+    border: 3px solid #A83FC6;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 60px;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+.walletButoonResponsive{
+    border: 3px solid #A83FC6;
+    color: #fff;
+    width: 100%;
+    min-height: 80px;
+    background-color: transparent;
+    
+    border-radius: 10px;
+    
+}
+.responsiveNavbar{
+    background-color: rgba(48, 10, 59, 1);
+    top: 125px;
+}

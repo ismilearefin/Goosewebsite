@@ -1,0 +1,14 @@
+.backgroundColor{
+  background-color: rgba(48, 10, 59, 1);
+  
+}
+
+@media screen and (min-width:450px ){
+  
+  .customWidth{
+    max-width: 1920px;
+    min-height: 100vh;
+    border: 1px solid black;
+   
+  }
+}

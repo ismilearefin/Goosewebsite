@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+h1{
+  color: white;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  
+}
+h2{
+  font-size: 38px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width:450px ){
+  h1{
+    color: white;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+  }
+  body{
+    overflow-x: hidden;
+  }
+  
+  h2{
+    font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+  }
+}
