@@ -9,7 +9,9 @@
     padding: 20px 40px;
     margin-left: 10px;
     border-radius: 10px;
-    border: 1px solid #fff;
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
     background-color: #321B38;
 }
 .iconBox{
@@ -25,6 +27,10 @@
     padding: 15px 60px;
     border-radius: 10px;
     margin: 0px 15px;
+    transition: background-color 1s ease-out 
+}
+.walletButoon:hover{
+    background-color: #A83FC6;
 }
 .walletButoonResponsive{
     border: 3px solid #A83FC6;
@@ -40,3 +46,38 @@
     background-color: rgba(48, 10, 59, 1);
     top: 125px;
 }
+
+/* Hover effect button */
+
+  .routeLink::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+  }
+  .routeLink:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .routeLink::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255,255,255,0.5);
+    transform: scale(1.2,1.2);
+  }
+  .routeLink:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }

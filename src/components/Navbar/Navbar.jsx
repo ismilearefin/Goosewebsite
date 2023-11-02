@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className='bg-transparent px-3 px-lg-5 pt-2'>
         <nav className='d-none d-lg-block d-xxl-flex justify-content-between'>
             <div className='d-flex justify-content-md-center '>
-            <img src={logo} alt='Logo'  width={150}/>
+            <a href='/'><img src={logo} alt='Logo'  width={150}/></a>
             </div>
             {/* justify-content-xl-end */}
             <div className='d-flex  justify-content-lg-evenly justify-content-xxl-end  mt-2 mt-xl-0 col-xxl-8' >
