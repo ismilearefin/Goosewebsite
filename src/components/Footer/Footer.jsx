@@ -1,10 +1,9 @@
 import '../Footer/Footer.css';
-// import { FaFacebookSquare } from 'react-icons/fa';
 import { AiFillTwitterSquare,AiFillGoogleSquare,AiFillFacebook } from 'react-icons/ai';
 
 export default function Footer() {
   return (
-    <div className='Footer p-4 p-md-0 '>
+    <div className='Footer p-4'>
         <div className='d-flex flex-lg-column align-items-center justify-content-center'>
           <div className='w-50 d-lg-flex justify-content-evenly'> 
           <a className='buttonFooter text-white mb-2 d-block'>Audits</a>

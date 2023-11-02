@@ -16,6 +16,13 @@ h1{
   line-height: 190px;
   
 }
+p,a,button{
+  color:white;
+  font-size: clamp(10px, 10vw, 24px);
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
 h2{
   font-size: 38px;
 font-style: normal;
@@ -23,10 +30,7 @@ font-weight: 500;
 line-height: normal;
 }
 
-a{
-  text-decoration: none;
-  color: white;
-}
+
 
 @media screen and (max-width:450px ){
   

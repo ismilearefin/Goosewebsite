@@ -1,0 +1,28 @@
+.imageDiv{
+    border:2px solid #fff;
+    background-color: #321B38;
+    display: grid;
+    justify-content: center;
+    /* width: fit-content; */
+    padding: 45px ;
+    border-radius: 10px;
+}
+.arroIcon{
+    font-size: 200px;
+    line-height: 0px;
+    color: #A83FC6;
+}
+.mainBox{
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+}
+.clip-path-topToBottom{
+    clip-path: polygon(0% 20%, 70% 22%, 70% 0, 100% 50%, 70% 100%, 70% 79%, 0% 80%);
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    transform: rotate(90deg);
+    margin: 20px 90px;
+    
+}

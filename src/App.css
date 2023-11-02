@@ -1,5 +1,9 @@
 .backgroundColor{
-  background-color: rgba(48, 10, 59, 1);
+  background-image: url('../src/assets/body-img.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   
 }
 
