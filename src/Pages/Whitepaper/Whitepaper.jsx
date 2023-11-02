@@ -5,7 +5,7 @@ import pig from "../../assets/pig.svg";
 import note from "../../assets/note.svg";
 import bag from "../../assets/bag.svg";
 import ArroImage from "../../components/ArroImage/ArroImage";
-import "./WhitePaper.css";
+import "./Whitepaper.css";
 
 export default function Whitepaper() {
   return (
