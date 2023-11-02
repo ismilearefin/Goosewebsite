@@ -1,0 +1,62 @@
+.dashboardMainDiv{
+    gap: 100px;
+}
+
+.imageIcon{
+    position: relative;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: white;
+    border: 6px solid #A83FC6;
+    cursor: pointer;
+    transition: background-color 1s ease-out 
+}
+
+.imageIcon:hover{
+    background-color: #f3d4fc;
+}
+.icon{
+    top: 40px;
+    left: 40px;
+}
+
+.withdrowText{
+    font-size: 20px;
+}
+td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ffffff4d;
+    background-color:#321B38;
+}
+
+
+
+td > input{
+    border-radius: 10px;
+}
+
+td>button{
+    width: 100%;
+    padding: 15px 0px;
+    color: white;
+    background-color: #321B38;
+    border: 4px solid #A83FC6;
+    border-radius: 10px;
+    transition: background-color 1s ease-out 
+}
+
+td>button:hover{
+    background-color: #A83FC6;
+}
+
+.HomeText{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.InvestorInput{
+    width: 50%;
+}

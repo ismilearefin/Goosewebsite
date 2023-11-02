@@ -24,25 +24,18 @@ p,a,button{
   text-decoration: none;
 }
 h2{
-  font-size: 38px;
+  color: white;
+  font-size: clamp(34px, 10vw, 85px);
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 line-height: normal;
 }
 
 
 
 @media screen and (max-width:450px ){
-  
   body{
     overflow-x: hidden;
   }
   
-  h2{
-    font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  
-  }
 }
