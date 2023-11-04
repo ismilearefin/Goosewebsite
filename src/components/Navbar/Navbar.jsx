@@ -11,13 +11,13 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     const [isClick, setIsClick] = useState(false);
   return (
-    <div className='navbarWidth mx-auto bg-transparent px-3 px-lg-5 pt-2'>
-        <nav className='d-none d-lg-block d-xxl-flex justify-content-between'>
+    <div className='navbarWidth  mx-auto bg-transparent  px-lg-5 pt-2'>
+        <nav className='d-none container d-lg-block d-xxl-flex justify-content-between'>
             <div className='d-flex justify-content-md-center '>
             <a href='/'><img src={logo} alt='Logo'  width={150}/></a>
             </div>
             {/* justify-content-xl-end */}
-            <div className='d-flex  justify-content-lg-evenly justify-content-xxl-end  mt-2 mt-xl-0 col-xxl-8' >
+            <div className='d-flex  justify-content-lg-evenly justify-content-xxl-end  mt-2 mt-xl-0 ' >
                 
                 <div className='d-md-flex w-auto align-items-center justify-content-md-around  justify-content-xxl-end col-lg-3 col-xl-7 col'>
                     <Link to={'/'} className='routeLink'>Home</Link>
@@ -58,9 +58,9 @@ export default function Navbar() {
         <div className='' >
                 
                 <div className='px-4 text-center'>
-                    <a href='/' className='d-block fs-3 py-4 my-3 border-bottom'>Audits</a>
-                    <a href='/' className='d-block py-4 fs-3 my-3 border-bottom'>Live</a>
-                    <a href='/' className='d-block py-4 fs-3 my-3 border-bottom' >WhitePaper</a>
+                    <Link to={'/'} className='d-block fs-3 py-4 my-3 border-bottom'>Home</Link>
+                    <Link to={'/white-paper'} className='d-block py-4 fs-3 my-3 border-bottom'>White paper</Link>
+                    <Link to={'/referral'} className='d-block py-4 fs-3 my-3 border-bottom' >Referral</Link>
                 </div>
                 
                 <div className='iconBox text-center px-4 my-4'>
